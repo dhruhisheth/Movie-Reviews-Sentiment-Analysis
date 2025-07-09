@@ -31,7 +31,6 @@ Sentiment Analysis/
 │ └── neg/ # Negative test reviews
 ├── .gitignore
 └── README.md
-
 ---
 
 ## ⚙️ Setup Instructions
@@ -40,24 +39,29 @@ Sentiment Analysis/
 ```bash
 git clone https://github.com/dhruhisheth/Movie-Reviews-Sentiment-Analysis.git
 cd Movie-Reviews-Sentiment-Analysis
+
 2. Install Required Libraries
 pip install nltk matplotlib numpy
+
 3. Download Required NLTK Resources
 import nltk
 nltk.download('punkt')
 nltk.download('opinion_lexicon')
 nltk.download('stopwords')
+
 4. Run the Script
 python3 sentiment_analysis.py
+
 📊 Output Includes
 Sentiment word count bar chart with error bars
 Top frequent positive/negative words
 Per-review positive/negative word counts
-Accuracy on test dataset
+Accuracy on the test dataset
 Summary statistics of average and standard deviation
+
 💡 Example Use Case
 A review like:
 "The movie was absolutely amazing and very touching."
 Will be processed as:
 ["emph_amazing", "emph_touching"]
-And classified as positive, with weighted sentiment.
+And classified as positive, with weighted sentiment due to emphasis.
