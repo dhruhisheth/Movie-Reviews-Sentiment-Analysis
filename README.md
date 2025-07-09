@@ -19,7 +19,7 @@ This project performs lexicon-based sentiment analysis on movie reviews using **
 
 ```bash
 Sentiment Analysis/
-├── SentimentAnalysis.py # Main script
+├── Sentiment Analysis.py # Main script
 ├── data/ 
 │ ├── urls_pos.txt
 │ └── urls_neg.txt
@@ -57,7 +57,7 @@ nltk.download('stopwords')
 
 6. Run the Script
 ```bash
-python3 SentimentAnalysis.py
+python3 Sentiment Analysis.py
 ```
 
 ---
