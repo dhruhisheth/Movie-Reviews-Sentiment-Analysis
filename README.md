@@ -26,9 +26,22 @@ This project performs lexicon-based sentiment analysis on movie reviews using **
 
 ---
 
-## 🗂️ Directory Structure
-<pre> ## 📁 Directory Structure ``` Sentiment Analysis/ ├── sentiment_analysis.py # Main script ├── data/ # Ignored large text files (manually moved) │ ├── urls_pos.txt │ └── urls_neg.txt ├── datatest/ │ ├── train/ │ │ ├── pos/ # Positive training reviews │ │ └── neg/ # Negative training reviews │ └── test/ │ ├── pos/ # Positive test reviews │ └── neg/ # Negative test reviews ├── .gitignore └── README.md ``` </pre>
+## 📁 Directory Structure
 
+Sentiment Analysis/
+├── sentiment_analysis.py # Main script
+├── data/ # Ignored large text files (manually moved)
+│ ├── urls_pos.txt
+│ └── urls_neg.txt
+├── datatest/
+│ ├── train/
+│ │ ├── pos/ # Positive training reviews
+│ │ └── neg/ # Negative training reviews
+│ └── test/
+│ ├── pos/ # Positive test reviews
+│ └── neg/ # Negative test reviews
+├── .gitignore
+└── README.md
 ---
 
 ## ⚙️ Setup Instructions
