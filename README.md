@@ -13,13 +13,14 @@ This project performs lexicon-based sentiment analysis on movie reviews using **
 - 📊 Visualizations: bar charts of sentiment scores, top words
 - 🧪 Accuracy testing on labeled positive/negative reviews
 
----
+
 
 ## 📁 Directory Structure
 
+```bash
 Sentiment Analysis/
 ├── sentiment_analysis.py # Main script
-├── data/ # Ignored large text files (manually moved)
+├── data/ 
 │ ├── urls_pos.txt
 │ └── urls_neg.txt
 ├── datatest/
@@ -31,7 +32,7 @@ Sentiment Analysis/
 │ └── neg/ # Negative test reviews
 ├── .gitignore
 └── README.md
----
+```
 
 ## ⚙️ Setup Instructions
 
@@ -39,18 +40,25 @@ Sentiment Analysis/
 ```bash
 git clone https://github.com/dhruhisheth/Movie-Reviews-Sentiment-Analysis.git
 cd Movie-Reviews-Sentiment-Analysis
+```
 
 2. Install Required Libraries
+```bash
 pip install nltk matplotlib numpy
+```
 
-3. Download Required NLTK Resources
+4. Download Required NLTK Resources
+```bash
 import nltk
 nltk.download('punkt')
 nltk.download('opinion_lexicon')
 nltk.download('stopwords')
+```
 
-4. Run the Script
-python3 sentiment_analysis.py
+6. Run the Script
+```bash
+python3 SentimentAnalysis.py
+```
 
 📊 Output Includes
 Sentiment word count bar chart with error bars
