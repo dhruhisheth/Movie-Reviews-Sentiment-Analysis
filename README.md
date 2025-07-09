@@ -19,7 +19,7 @@ This project performs lexicon-based sentiment analysis on movie reviews using **
 
 ```bash
 Sentiment Analysis/
-├── sentiment_analysis.py # Main script
+├── SentimentAnalysis.py # Main script
 ├── data/ 
 │ ├── urls_pos.txt
 │ └── urls_neg.txt
@@ -60,16 +60,25 @@ nltk.download('stopwords')
 python3 SentimentAnalysis.py
 ```
 
-📊 Output Includes
-Sentiment word count bar chart with error bars
-Top frequent positive/negative words
-Per-review positive/negative word counts
-Accuracy on the test dataset
-Summary statistics of average and standard deviation
+---
 
-💡 Example Use Case
+## 📊 Output Includes
+
+- Sentiment word count bar chart with error bars
+- Top frequent positive/negative words
+- Per-review positive/negative word counts
+- Accuracy on test dataset
+- Summary statistics of average and standard deviation
+
+---
+___
+
+## 💡 Example Use Case
 A review like:
-"The movie was absolutely amazing and very touching."
-Will be processed as:
+_"The movie was absolutely amazing and very touching."_  
+  Will be processed as:
+```bash
 ["emph_amazing", "emph_touching"]
-And classified as positive, with weighted sentiment due to emphasis.
+```
+And classified as **positive**, with weighted sentiment due to emphasis.
+___
