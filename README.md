@@ -27,6 +27,7 @@ This project performs lexicon-based sentiment analysis on movie reviews using **
 ---
 
 ## 🗂️ Directory Structure
+'''
 Sentiment Analysis/
 │
 ├── sentiment_analysis.py # Main script
@@ -42,10 +43,7 @@ Sentiment Analysis/
 │ └── neg/ # Negative test reviews
 ├── .gitignore
 └── README.md
-
-
-
-
+'''
 
 ---
 
@@ -62,10 +60,12 @@ import nltk
 nltk.download('punkt')
 nltk.download('opinion_lexicon')
 nltk.download('stopwords')
+'''
 
 4. Run the Script
+'''
 python3 sentiment_analysis.py
-
+'''
 
 📊 Output Includes
 Sentiment word count bar chart with error bars
